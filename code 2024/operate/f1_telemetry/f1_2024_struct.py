@@ -1,4 +1,5 @@
 import ctypes
+import json
 
 def to_json(*args, **kwargs):
     kwargs.setdefault('indent', 2)
@@ -760,12 +761,3 @@ class PacketTimeTrialData(ctypes.LittleEndianStructure):
     ]
 
 ###
-
-
-
-
-
-
-
-
-

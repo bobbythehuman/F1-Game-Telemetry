@@ -12,7 +12,7 @@ weather = {0:"clear",
            4:"heavy rain",
            5:"storm"}
 
-trackTemperatureChange =   {0:"up",
+trackTemperatureChange = {0:"up",
                             1:"down",
                             2:"no change"}
 
@@ -20,7 +20,7 @@ airTemperatureChange = {0:"up",
                         1:"down",
                         2:"no change"}
 
-FormulaType =  {0:"F1 modern",
+FormulaType = {0:"F1 modern",
                 1:"F1 classic",
                 2:"F2",
                 3:"F1 generic",
@@ -31,25 +31,25 @@ FormulaType =  {0:"F1 modern",
                 8:"F1 World",
                 9:"F1 Elimination"}
 
-sliProNativeSupport =  {0:"inactive", 1:"active"}
+sliProNativeSupport = {0:"inactive", 1:"active"}
 
-safetyCarStatus =  {0:"no safety car",
+safetyCarStatus = {0:"no safety car",
                     1:"full",
                     2:"virtual",
                     3:"formation lap"}
 
-networkGame =  {0:"Offline", 1:"Online"}
+networkGame = {0:"Offline", 1:"Online"}
 
-forecastAccuracy =  {0:"perfect", 1:"approximate"}
+forecastAccuracy = {0:"perfect", 1:"approximate"}
 
 steeringAssist = {0:"Off", 1:"On"}
 
-brakingAssist =    {0:"off",
+brakingAssist = {0:"off",
                     1:"low",
                     2:"medium",
                     3:"high"}
 
-gearboxAssist =    {1:"manual",
+gearboxAssist = {1:"manual",
                     2:"manual & suggested gear",
                     3:"auto"}
 
@@ -61,13 +61,13 @@ ERSAssist = {0:"Off", 1:"On"}
 
 DRSAssist = {0:"Off", 1:"On"}
 
-dynamicRacingLine =    {0:"off",
+dynamicRacingLine = {0:"off",
                         1:"corners only",
                         2:"full"}
 
-dynamicRacingLineType =    {0:"2d", 1:"3d"}
+dynamicRacingLineType = {0:"2d", 1:"3d"}
 
-sessionLength =    {0:"None",
+sessionLength = {0:"None",
                     2:"Very Short",
                     3:"Short",
                     4:"Medium",
@@ -77,11 +77,11 @@ sessionLength =    {0:"None",
 
 speedUnitsLeadPlayer = {0:"MPH", 1:"KPH"}
 
-temperatureUnitsLeadPlayer =   {0:"Celsius", 1:"Fahrenheit"}
+temperatureUnitsLeadPlayer = {0:"Celsius", 1:"Fahrenheit"}
 
-speedUnitsSecondaryPlayer =    {0:"MPH", 1:"KPH"}
+speedUnitsSecondaryPlayer = {0:"MPH", 1:"KPH"}
 
-temperatureUnitsSecondaryPlayer =  {0:"Celsius", 1:"Fahrenheit"}
+temperatureUnitsSecondaryPlayer = {0:"Celsius", 1:"Fahrenheit"}
 
 equalCarPerformance = {0:"Off", 1:"On"}
 
@@ -89,22 +89,22 @@ recoveryMode = {0:"None",
                 1:"Flashbacks",
                 2:"Auto Recovery"}
 
-flashbackLimit =   {0:"Low",
+flashbackLimit = {0:"Low",
                     1:"Medium",
                     2:"High",
                     3:"Unlimited"}
 
-surfaceType =  {0:"Simplified", 1:"Realistic"}
+surfaceType = {0:"Simplified", 1:"Realistic"}
 
-lowFuelMode =  {0:"Easy", 1:"Hard"}
+lowFuelMode = {0:"Easy", 1:"Hard"}
 
-raceStarts =   {0:"Manual", 1:"Assisted"}
+raceStarts = {0:"Manual", 1:"Assisted"}
 
-tyreTemperature =  {0:"Surface only", 1:"Surface & Carcass"}
+tyreTemperature = {0:"Surface only", 1:"Surface & Carcass"}
 
 pitLaneTyreSim = {0:"Off", 1:"On"}
 
-carDamage =    {0:"Off",
+carDamage = {0:"Off",
                 1:"Reduced",
                 2:"Standard",
                 3:"Simulation"}
@@ -113,41 +113,41 @@ carDamageRate = {0:"Reduced",
                 1:"Standard",
                 2:"Simulation"}
 
-collisions =   {0:"Off",
+collisions = {0:"Off",
                 1:"Player-to-Player Off",
                 2:"On"}
 
-collisionsOffForFirstLapOnly =    {0:"Disabled", 1:"Enabled"}
+collisionsOffForFirstLapOnly = {0:"Disabled", 1:"Enabled"}
 
-mpUnsafePitRelease =   {0:"On", 1:"Off (Multiplayer)"}
+mpUnsafePitRelease = {0:"On", 1:"Off (Multiplayer)"}
 
 mpOffForGriefing = {0:"Disabled", 1:"Enabled (Multiplayer)"}
 
-cornerCuttingStringency =  {0:"Regular",
+cornerCuttingStringency = {0:"Regular",
                             1:"Strict"}
 
 parcFermeRules = {0:"Off", 1:"On"}
 
-pitStopExperience =    {0:"Automatic",
+pitStopExperience = {0:"Automatic",
                         1:"Broadcast",
                         2:"Immersive"}
 
-safetyCar =    {0:"Off",
+safetyCar = {0:"Off",
                 1:"Reduced",
                 2:"Standard",
                 3:"Increased"}
 
-safetyCarExperience =  {255:"Unknown",
+safetyCarExperience = {255:"Unknown",
                         0:"Broadcast",
                         1:"Immersive"}
 
 formationLap = {0:"Off", 1:"On"}
 
-formationLapExperience =  {255:"Unknown",
+formationLapExperience = {255:"Unknown",
                             0:"Broadcast",
                             1:"Immersive"}
 
-redFlags =    {0:"Off",
+redFlags = {0:"Off",
                 1:"Reduced",
                 2:"Standard",
                 3:"Increased"}
@@ -158,11 +158,11 @@ affectsLicenceLevelMP = {0:"Off", 1:"On"}
 
 
 
-pitStatus =    {0:"None",
+pitStatus = {0:"None",
                 1:"Pitting",
                 2:"in pit area"}
 
-sector =   {0:"sector1",
+sector = {0:"sector1",
             1:"sector2",
             2:"sector3"}
 

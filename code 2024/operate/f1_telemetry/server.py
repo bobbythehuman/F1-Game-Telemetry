@@ -1,6 +1,7 @@
 import socket
 #import netifaces
 import sys
+from f1_2024_struct import *
 from f1_telemetry.f1_2024_struct import *
 from class_dict.digestion import *
 
