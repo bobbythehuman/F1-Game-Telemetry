@@ -4,16 +4,20 @@ Receives telemetry data from the F1 game franchise
 ## Documentation
 Data output documentations can be found in the `Data Output Doc` folder. <br>
 It contains the UDP specifications for the following games:
+- F1 25 v3
+> [F1 25 UDP Specification Forum](https://forums.ea.com/blog/f1-games-game-info-hub-en/ea-sports%E2%84%A2-f1%C2%AE25-udp-specification/12187347)
 - F1 24 v27.2
-> [F1 24 UDP Specification Forum](https://forums.ea.com/discussions/f1-24-general-discussion-en/f1-24-udp-specification/8369125?topicRepliesSort=postTimeDesc)
+> [F1 24 UDP Specification Forum](https://forums.ea.com/discussions/f1-24-general-discussion-en/f1-24-udp-specification/8369125)
 - F1 23 v29.3
-> [F1 23 UDP Specification Forum](https://forums.ea.com/discussions/f1-23-en/f1-23-udp-specification/8390745?topicRepliesSort=postTimeDesc)
+> [F1 23 UDP Specification Forum](https://forums.ea.com/discussions/f1-23-en/f1-23-udp-specification/8390745)
 - F1 22 v16
 > [F1 21 UDP Specification Forum, has broken download file](https://web.archive.org/web/20230927195200/https://answers.ea.com/t5/General-Discussion/F1-22-UDP-Specification/td-p/11551274)
 - F1 21 Not available
 > [F1 21 UDP Specification Forum, has broken download file](https://web.archive.org/web/20221203052245/https://forums.codemasters.com/topic/80231-f1-2021-udp-specification/)
 - F1 20 v?
 > [F1 20 UDP Specification Forum](https://web.archive.org/web/20221127112921/https://forums.codemasters.com/topic/50942-f1-2020-udp-specification/)
+- F1 19 v?
+> [F1 19 UDP Specification Forum](https://web.archive.org/web/20191115172106/https://forums.codemasters.com/topic/38920-f1-2019-udp-specification/)
 
 ## Latest Version
 The latest version can be found in `code 2024` <br>
