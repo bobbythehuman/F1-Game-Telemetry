@@ -732,7 +732,6 @@ class PacketMotionExData(ctypes.LittleEndianStructure):
 
 ### Time Trial Packet -- 1 per second, only in time trial -- 101 bytes
 
-
 class TimeTrialDataSet(ctypes.LittleEndianStructure):
     _pack_ = 1
     _fields_ = [
@@ -749,7 +748,6 @@ class TimeTrialDataSet(ctypes.LittleEndianStructure):
         ('m_customSetup',           ctypes.c_uint8),    # 0 = No, 1 = Yes
         ('m_valid',                 ctypes.c_uint8)     # 0 = invalid, 1 = valid
     ]
-
 
 class PacketTimeTrialData(ctypes.LittleEndianStructure):
     _pack_ = 1

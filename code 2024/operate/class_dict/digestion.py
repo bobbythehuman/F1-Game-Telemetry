@@ -651,6 +651,30 @@ def ingest_motionexdata(Packet):
         
     return data
 
-
+def ingest_timetrialdata(Packet):
+    m_header=ingest_Header(Packet.m_header)
+    
+    class timeTrialDataSet:
+        m_header
+        m_carIdx = Packet.m_carIdx
+        m_teamId = Packet.m_teamId
+        m_lapTimeInMS = Packet.m_lapTimeInMS
+        m_sector1TimeInMS = Packet.m_sector1TimeInMS
+        m_sector2TimeInMS = Packet.m_sector2TimeInMS
+        m_sector3TimeInMS = Packet.m_sector3TimeInMS
+        m_tractionControl = Packet.m_tractionControl
+        m_gearboxAssist = Packet.m_gearboxAssist
+        m_antiLockBrakes = Packet.m_antiLockBrakes
+        m_equalCarPerformance = Packet.m_equalCarPerformance
+        m_customSetup = Packet.m_customSetup
+        m_valid = Packet.m_valid
+        
+    class data:
+        m_header
+        m_playerSessionBestDataSet = timeTrialDataSet
+        m_personalBestDataSet = timeTrialDataSet
+        m_rivalDataSet = timeTrialDataSet
+    
+    return data
 
 
