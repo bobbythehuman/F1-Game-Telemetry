@@ -1,7 +1,6 @@
 import socket
 #import netifaces
 import sys
-sys.path.append(r"C:\Users\farle\OneDrive\Documents\Coding Stuff\everything code\f1 telemetry\code 2024\operate")
 from f1_telemetry.f1_2024_struct import *
 from class_dict.digestion import *
 

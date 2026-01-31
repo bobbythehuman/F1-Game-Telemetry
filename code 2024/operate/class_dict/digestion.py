@@ -1,5 +1,4 @@
 import sys
-sys.path.append(r'C:\Users\farle\OneDrive\Documents\Coding Stuff\everything code\f1 telemetry\code 2024\operate\class_dict')
 from MainAppendices import *
 
 def expand(packet, tyre=False):
